@@ -1,0 +1,46 @@
+import Image from "next/image";
+
+export default function Hero() {
+  return (
+    <>
+      <section className="sm:mt-6 lg:mt-8 mt-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex items-center gap-3 lg:flex-justify lg:flex flex-col lg:flex-row lg:justify-evenly">
+          <div className="sm:text-center lg:text-left">
+            <h1 className="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl">
+              <span className="block xl:inline">The global experts in</span>
+              <span className="block text-[tomato] capitalize">
+                pest control
+              </span>
+            </h1>
+            <p className="mt-3 text-base text-gray-800 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              Nohama is the world's largest pest contorl company, offering the
+              broadest, most advance range of pest conrol solutions and services
+              in the industry.
+            </p>
+            <div className=" ">
+              <button className="border-2 border-black bg-gray-100  px-5 py-2 text-[25px] mt-6 rounded-lg hover:bg-gray-300">
+                Contact your local specialist
+              </button>
+            </div>
+          </div>
+
+          {/* <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 mt-10"> */}
+          <div className="">
+            {/* <img
+              className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+              src="https://imagesunsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+              alt=""
+            /> */}
+            <Image
+              src="/Images/pest3.jpg"
+              alt="Pest Control"
+              width={500}
+              height={200}
+            ></Image>
+          </div>
+        </div>
+      </section>
+      ;
+    </>
+  );
+}
