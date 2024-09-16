@@ -12,9 +12,9 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex flex-wrap items-center justify-between p-3 bg-[tomato]">
+      <nav className="flex flex-wrap items-center justify-between py-3 bg-[tomato]">
         <h1 className=" text-2xl text-gray-900 ml-5">
-          <span className="italic font-bold text-gray-100 text-3xl pr-2">
+          <span className="italic font-bold text-gray-100 text-3xl mr-2">
             NOHAMA
           </span>
           Pest Control
@@ -71,3 +71,5 @@ export default function Navbar() {
     </>
   );
 }
+
+// why is it overlapping

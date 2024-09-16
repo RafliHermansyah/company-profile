@@ -94,7 +94,7 @@ export default function Teams() {
                   Dr. Asep Jurasep is our Technical Manager at Nohama Pest
                   Control Pte Ltd and an elected Pi Chi Omega Entomologist. He
                   graduated with a PhD in Nature Science, studied termites and
-                  other urban pests found in Asia.
+                  other urban pests.
                 </p>
 
                 <button className="w-[60%] mx-auto bg-[tomato] text-white rounded-3xl px-4 py-2">
