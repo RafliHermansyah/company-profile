@@ -24,10 +24,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 mt-10"> */}
           <div className="">
             <Image
-              src="/Images/pest3.jpg"
+              src="/images/pest3.jpg"
               alt="Pest Control"
               width={500}
               height={200}
@@ -40,3 +39,5 @@ export default function Hero() {
     </>
   );
 }
+
+// why is the image pest.3 not showing in my vercel.app, other images in the web is showing normally
